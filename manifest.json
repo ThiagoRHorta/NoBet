@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
     "name": "NoBet",
-    "version": "1.4",
-    "description": "Extensão para bloquear sites indesejados com opção para adicionar, exportar e importar sites.",
+    "version": "1.0.0.0",
+    "description": "An extension to block unwanted websites, with options to add, export, and import sites. Perfect for blocking gambling sites and other distracting content.",
     "permissions": [
       "storage",
       "declarativeNetRequest"

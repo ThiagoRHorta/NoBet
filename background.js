@@ -1,4 +1,4 @@
-let ruleIdCounter = 1; // Inicia em 1 e usa incremento simples
+let ruleIdCounter = 1;
 
 async function updateRules(blockedSites) {
   const existingRules = await chrome.declarativeNetRequest.getDynamicRules();
@@ -27,16 +27,12 @@ async function updateRules(blockedSites) {
   });
 }
 
-// Restante do código mantido igual
-
-// Atualiza as regras ao carregar
 chrome.runtime.onStartup.addListener(() => {
   chrome.storage.sync.get({ blockedSites: [] }, (data) => {
     updateRules(data.blockedSites);
   });
 });
 
-// Atualiza quando há mudanças
 chrome.storage.onChanged.addListener((changes) => {
   if (changes.blockedSites) {
     updateRules(changes.blockedSites.newValue);
