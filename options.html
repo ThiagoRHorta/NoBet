@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>NoBet - Gerenciar Sites Bloqueados</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="icons/icon128.png" alt="NoBet Icon" class="logo">
+        <h1>NoBet</h1>
+      </header>
+      <main>
+        <section class="section-add">
+          <h2>Adicionar Site</h2>
+          <p>Insira o site da forma que desejar (ex.: <code>www.exemplo.com</code>).</p>
+          <input type="text" id="siteInput" placeholder="Ex: www.example.com" />
+          <button id="addButton">Adicionar</button>
+        </section>
+        <section class="section-export-import">
+          <h2>Exportar / Importar Lista</h2>
+          <div class="buttons">
+            <button id="exportButton">Exportar</button>
+            <button id="importButton">Importar</button>
+          </div>
+          <input type="file" id="importFile" accept=".txt" style="display: none;" />
+          <p>O arquivo <code>blocked.txt</code> deve conter cada site listado entre aspas ─ "www.exemplo.com"</p>
+          <p>Confira o projeto no <a href="https://github.com/seu-repositorio" target="_blank">GitHub</a>.</p>
+        </section>
+      </main>
+    </div>
+    <script src="options.js"></script>
+  </body>
+</html>
