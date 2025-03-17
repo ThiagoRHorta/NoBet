@@ -60,13 +60,13 @@ A minimalist and effective browser extension to block distracting websites, help
 
     project-root/  
         ├── extension/  
-        ├── background.js   - Core blocking logic  
-        ├── manifest.json   - Extension configuration  
-        ├── options.html    - Popup interface  
-        ├── options.js      - UI functionality  
-        ├── styles.css      - Modern styling  
-        ├── icons/          - Extension assets  
-            └── Screen.PNG      - Interface preview  
+            ├── background.js   - Core blocking logic  
+            ├── manifest.json   - Extension configuration  
+            ├── options.html    - Popup interface  
+            ├── options.js      - UI functionality  
+            ├── styles.css      - Modern styling  
+            ├── icons/          - Extension assets  
+                └── icon16.png, icon32.png, icon64.png, icon128.png
 
 ### Contributing
 
