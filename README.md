@@ -66,7 +66,7 @@ A minimalist and effective browser extension to block distracting websites, help
         ├── options.js      - UI functionality  
         ├── styles.css      - Modern styling  
         ├── icons/          - Extension assets  
-        └── Screen.PNG      - Interface preview  
+            └── Screen.PNG      - Interface preview  
 
 ### Contributing
 
